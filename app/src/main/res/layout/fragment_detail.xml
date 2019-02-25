@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.DetailFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+
+            android:id="@+id/tv_recipe_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Repice Ingercipes"
+            android:textAlignment="center"
+            android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/IngRecipeRecyclarView"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/DetailRecipeRecyclarView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="160dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    </RelativeLayout>
+</FrameLayout>
